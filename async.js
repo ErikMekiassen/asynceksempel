@@ -5,6 +5,6 @@ console.log('calling');
 const result = await resolveAfter2Seconds();
 console.log(result);
 }
-const notAsync = () => {console.log("Jeg var først!!!!")}
+
 asyncCall();
-notAsync()
+console.log("Jeg var først!!!!")
